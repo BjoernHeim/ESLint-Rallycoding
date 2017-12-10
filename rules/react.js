@@ -167,7 +167,7 @@ module.exports = {
 
     // Restrict file extensions that may be required
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/require-extension.md
-    'react/require-extension': [2, { extensions: ['.jsx', '.js'] }],
+    //'react/require-extension': [2, { extensions: ['.jsx', '.js'] }],
 
     // Require render() methods to return something
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/require-render-return.md
@@ -179,11 +179,11 @@ module.exports = {
 
     // Enforce spaces before the closing bracket of self-closing JSX elements
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-tag-spacing.md
-    'react/jsx-tag-spacing': {
-      "closingSlash": "never",
-      "beforeSelfClosing": "always",
-      "afterOpening": "never"
-    },
+    'react/jsx-tag-spacing': [2, {
+        closingSlash: "never",
+        beforeSelfClosing: "always",
+        afterOpening: "never"
+    }],
 
     // Enforce component methods order
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/sort-comp.md
