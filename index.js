@@ -21,6 +21,11 @@ module.exports = {
   plugins: [
     'class-property'
   ],
+  env: {
+    browser: true,
+    jest: true,
+    serviceworker: true
+  },
   parser: 'babel-eslint',
   rules: {
     'strict': 0,
