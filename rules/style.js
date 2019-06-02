@@ -11,7 +11,7 @@ module.exports = {
     'brace-style': ['error', '1tbs', { allowSingleLine: true }],
 
     // require camel case names
-    camelcase: ['error', { properties: 'never' }],
+    'babel/camelcase': ['error', { properties: 'never' }],
 
     // enforce spacing before and after comma
     'comma-spacing': ['error', { before: false, after: true }],
@@ -219,7 +219,7 @@ module.exports = {
     'no-whitespace-before-property': 'error',
 
     // require padding inside curly braces
-    'object-curly-spacing': ['error', 'always'],
+    'babel/object-curly-spacing': ['error', 'always'],
 
     // enforce line breaks between braces
     // http://eslint.org/docs/rules/object-curly-newline
@@ -257,14 +257,14 @@ module.exports = {
     'quote-props': ['error', 'as-needed', { keywords: false, unnecessary: true, numbers: false }],
 
     // specify whether double or single quotes should be used
-    quotes: ['error', 'single', { avoidEscape: true }],
+    'babel/quotes': ['error', 'single', { avoidEscape: true }],
 
     // do not require jsdoc
     // http://eslint.org/docs/rules/require-jsdoc
     'require-jsdoc': 'off',
 
     // require or disallow use of semicolons instead of ASI
-    semi: ['error', 'always'],
+    'babel/semi': ['error', 'always'],
 
     // enforce spacing before and after semicolons
     'semi-spacing': ['error', { before: false, after: true }],
@@ -300,7 +300,7 @@ module.exports = {
     // require or disallow a space immediately following the // or /* in a comment
     'spaced-comment': ['error', 'always', {
       exceptions: ['-', '+'],
-      markers: ['=', '!']           // space here to support sprockets directives
+      markers: ['=', '!'] // space here to support sprockets directives
     }],
 
     // require or disallow the Unicode Byte Order Mark

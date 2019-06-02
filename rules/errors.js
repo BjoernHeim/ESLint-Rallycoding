@@ -108,6 +108,6 @@ module.exports = {
     'valid-jsdoc': 'off',
 
     // ensure that the results of typeof are compared against a valid string
-    'valid-typeof': 'error'
+    'babel/valid-typeof': 'error'
   }
 };

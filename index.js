@@ -19,7 +19,7 @@ module.exports = {
     sourceType: 'module'
   },
   plugins: [
-    'class-property'
+    'babel'
   ],
   env: {
     browser: true,
@@ -28,9 +28,9 @@ module.exports = {
   },
   parser: 'babel-eslint',
   rules: {
-    'strict': 0,
+    strict: 0,
     'react/jsx-no-bind': 0,
-    'indent': 0,
+    indent: 0,
     'react/prefer-es6-class': 0,
     'react/jsx-uses-react': 2,
     'react/jsx-uses-vars': 2,
@@ -46,7 +46,6 @@ module.exports = {
     'import/prefer-default-export': 0,
     'id-length': 0,
     'comma-dangle': 0,
-    'new-cap': 0,
     'func-names': 0,
     'consistent-return': 0,
     'no-use-before-define': 0,
@@ -54,6 +53,7 @@ module.exports = {
     'spaced-comment': 0,
     'no-console': 0,
     'no-alert': 0,
-    'linebreak-style': 0
+    'linebreak-style': 0,
+    'babel/new-cap': 0
   }
 };

@@ -180,9 +180,9 @@ module.exports = {
     // Enforce spaces before the closing bracket of self-closing JSX elements
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-tag-spacing.md
     'react/jsx-tag-spacing': [2, {
-        closingSlash: "never",
-        beforeSelfClosing: "always",
-        afterOpening: "never"
+        closingSlash: 'never',
+        beforeSelfClosing: 'always',
+        afterOpening: 'never'
     }],
 
     // Enforce component methods order

@@ -110,7 +110,7 @@ module.exports = {
     'no-implied-eval': 'error',
 
     // disallow this keywords outside of classes or class-like objects
-    'no-invalid-this': 'off',
+    'babel/no-invalid-this': 'off',
 
     // disallow usage of __iterator__ property
     'no-iterator': 'error',
@@ -194,7 +194,7 @@ module.exports = {
     'no-unmodified-loop-condition': 'off',
 
     // disallow usage of expressions in statement position
-    'no-unused-expressions': ['error', {
+    'babel/no-unused-expressions': ['error', {
       allowShortCircuit: false,
       allowTernary: false,
     }],
